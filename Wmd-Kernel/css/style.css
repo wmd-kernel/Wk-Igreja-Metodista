@@ -1,0 +1,118 @@
+*{ margin: 0 auto; font-family: Century Gothic;  color: #fff;}
+
+.central{
+    width: 100%;
+}
+    .cabecalho{
+        width: 100%; height: 575px;
+        background: url("../img/bg.jpg") no-repeat;
+        background-size: 100% 579px;
+    }
+        .cabecalhoEsq{
+            width: 50%; height: 575px;
+            float: left;
+        }
+            .cabecalhoEsq img{
+                width: 100%;
+            }
+        .cabecalhoDir{
+            width: 50%; height: 575px;
+            float: right;
+        }
+            .cabecalhoDir1{
+                width: 100%;
+                float: right; margin: 200px 0;
+            }
+                .cabecalhoDir1Txt{
+                    width: 70%; padding: 15px;
+                    font-size: 12px; float: right;
+                    background-color: rgb(81, 97, 135);
+                    border-radius: 5px 0 0 5px;
+                }
+                    .cabecalhoDir1Enf{
+                        width: 40px; height: 70px;
+                        border-radius: 100px 0 0 100px;
+                        background-color: rgb(81, 97, 135);
+                        float: left; margin: 20px -55px;
+                    }
+                .cabecalhoDir2{
+                    width: 100%;
+                    float: right; margin: -80px 0;
+                }
+                    .cabecalhoDir2 a{
+                        width: 30%; float: right;
+                        text-align: center; text-decoration: none;
+                        padding: 10px; margin-right: 150px;
+                        font-size: 14px; border-radius: 5px;
+                        background-color: rgba(0, 0, 0, .60);
+                    }
+                        .cabecalhoDir2 a:hover{
+                            transition-duration: .5s;
+                            background-color: rgba(81, 97, 135, .70);
+                            font-size: small;
+                        }
+
+
+
+
+    #rodape{
+        width: 100%; height: 82px;
+        background-color: rgb(81, 97, 135);
+    }
+        .rodapeEsq{
+            width: 60%; height: 82px;
+            --background-color: rgb(81, 97, 135);
+            float: left;
+        }
+            .rodapeEsq1{
+                width: 200px; height: 20px;
+                padding: 10px; text-align: center;
+                background-color: rgb(81, 97, 135);
+                border-radius: 100px; font-size: 12px;
+                float: left; margin: -18px 20px;
+            }
+            .rodapeEsq2{
+                width: 100%; float: left;
+                font-size: 12px; margin: 16px 50px;
+            }
+                .encItemsRodapeEsq2{
+                    width: 50%; float: left;
+                }
+                .linkImg{
+                    width: 40px; height: 40px;
+                    border-radius: 100%;
+                    float: left; margin-left: 5px;
+                    background-color: rgb(67, 80, 113);
+                }
+                    .encItemsRodapeDir1 .linkImg:hover{
+                        margin-top: 10px;
+                        transition-duration: .5s;
+                        background-color: rgba(0, 0, 0, .40);
+                    }
+                    .linkImg img{
+                        width: 34px; height: 24px;
+                        margin: 7px 1px;
+                    }
+                .infoLink{
+                    width: 250px; padding: 3px;
+                    border-radius: 100px; text-align: center;
+                    float: right; margin: 10px 20px;
+                    background-color: rgb(67, 80, 113);
+                }
+                    .infoLink span{
+
+                    }
+        .rodapeDir{
+            width: 30%; height: 82px;
+            float: right;
+        }
+            .rodapeDir1{
+                width: 200px; height: 50px;
+                padding: 20px; text-align: center;
+                background-color: rgb(81, 97, 135);
+                border-radius: 100px; font-size: 12px;
+                float: left; margin: -35px 25px;
+            }
+                .encItemsRodapeDir1{
+                    margin-left: 24px;
+                }

@@ -1,0 +1,301 @@
+*{  margin: 0 auto; font-family: Century Gothic; color: rgb(86, 86, 86);}
+
+
+
+
+
+#cabecalho, #rodape{
+    width: 100%; height: 70px;
+    background: rgb(86, 86, 86);
+    float: left;
+}
+    .home{
+        width: 60px; height: 40px;
+        background: rgb(241, 241, 241);
+        float: right ;border-radius: 5px;
+        margin-right: 32px;
+    }
+        .home img{
+            width: 30px; height: 30px;
+            margin: 7px 15px;
+        }
+    #enfCima{
+        width: 120px; height: 100px;
+        background: rgb(241, 241, 241);
+        float: left; margin: 25px 50px;
+        border-radius: 100%;
+    }
+        .logo{
+            width: 50px; height: 80px;
+            margin: 10px 30px;
+        }
+    .texto{
+        width: 270px; min-width: 200px;
+        color: #f1f1f1; float-displace: block-within-page;
+        font-size: 14px; margin-top: 12px;
+
+    }
+        .texto h3{
+
+        }
+    .copyright{
+        width: 100%; padding-top: 25px;
+        text-align: center; font-size: 12px;
+    }
+        .copyright p{
+            color: rgb(192, 192, 192);
+        }
+        .copyright a{
+            color: rgb(192, 192, 192);
+            text-decoration: none; font-weight: bold;
+        }
+
+
+
+
+
+#enfBaixo{
+    width: 120px; height: 100px;
+    background: rgb(241, 241, 241);
+    float: left; margin: -60px 50px;
+    border-radius: 100%;
+}
+
+
+
+
+#centro{
+    width: 100%; height: 587px;
+    background: rgb(241, 241, 241)  url("../img/backlogo.png") no-repeat center 50%;
+
+}
+    .encInfoUser{
+        width: 400px; height: 45px;
+        float: right; padding: 5px;
+        margin: 10px 10px 0px 10px;
+    }
+        #infoUser{
+            width: 400px; height: 45px;
+            background: rgb(224, 224, 224);
+            float: right; border-radius: 100px;
+            padding: 5px;
+        }
+            .encImgUser{
+                width: 65px; height: 45px;
+                float: right; border-radius: 5px;
+                background: rgba(89, 89, 89, .25);
+                margin-right: 10px;
+
+            }
+
+                .imgUser{
+                    width: 100%; height: 45px;
+                    border-radius: 5px;
+
+                }
+                .encNomeUser{
+                    width: 75%; height: 45px;
+                    float: left;
+                    font-size: 12px; text-align: left;
+
+                }
+                .encNomeUser span{
+                    float: left; margin: 17px 10px;
+
+                }
+        .opc{
+            float: right; border-radius: 100px;
+            background: rgb(241, 241, 241);
+            text-align: right; padding: 4px;
+            font-size: 11px; font-weight: bolder;
+            margin: 10px 10px 0px 10px;
+
+        }
+            .opc a{
+                text-decoration: none;
+            }
+            .opc:hover{
+                transition-duration: .9s;
+                background: rgb(224, 224, 224);
+                padding: 4px;
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MENU PRINCIPAL*/
+
+
+
+#infoMenu{
+    width: 100%;  float: right;
+    margin-top: 5%;
+
+}
+    #infoMenu h2{
+        margin: 10px 50px; font-size: 20px;
+        color: rgb(86, 86, 86);
+     }
+
+
+
+
+
+#menuA{
+    float: left; width: 70%;
+    background-color: rgba(192, 0, 0, .50);
+    margin-left: 50px;
+    border-radius: 12px 0 0 12px;
+}
+    #menuA1{
+        width: 100%; margin: 0px 14px;
+        color: #ffffff; font-size: 14px;
+    }
+    .menuA2{
+        float: left; width: 100%;
+        font-style: oblique;
+
+    }
+        .menuA2 li{
+            float: right; width: 14%;
+            text-align: center; list-style: none;
+        }
+        .menuA2 a{
+            text-decoration: none;
+            display: block; width: 100%;
+            padding: 5px 0;  color: #ffffff;
+            font-weight: bold; font-size: 12px;
+
+
+        }
+        .menuA2 a:hover{
+            background-color: rgba(192, 0, 0, .50);
+            transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+            transition-duration: 0.5s;
+        }
+
+
+
+
+#menuB{
+    float: right; width: 70%;
+    background-color: rgba(192, 0, 0, .50);
+    margin: 30px 50px;
+    border-radius: 0 12px 12px 0;
+}
+    #menuB1{
+        width: 100%; margin: 0px -14px;
+        color: #ffffff; font-size: 14px;
+        text-align: right;
+    }
+    .menuB2{
+        float: right; width: 100%;
+        font-style: oblique;
+
+    }
+    .menuB2 li{
+        float: left; width: 14%;
+        text-align: center; list-style: none;
+    }
+    .menuB2 a{
+        text-decoration: none;
+        display: block; width: 100%;
+        padding: 5px 0;  color: #ffffff;
+        font-weight: bold; font-size: 12px;
+
+
+    }
+    .menuB2 a:hover{
+        background-color: rgba(192, 0, 0, .50);
+        transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        transition-duration: 0.5s;
+    }
+
+
+
+
+
+
+
+
+
+
+/*FORMULARIO CADASTRO*/
+
+
+
+.foco{
+    width: 100%; float: left;
+    --background-color: rgba(126, 126, 109, 0.5);
+}
+    .focoEsc{
+        width: 80%; float: left;
+        margin-top: 20px;
+    }
+        .encFocoEsc1e2{
+            width: 100%; float: left;
+            padding-left: 40px;
+        }
+            .focoEsc1{
+                width: 20%; float: left;
+            }
+            .focoEsc2{
+                width: 80%; float: left;
+            }
+        .todosInputs{
+            margin: 5px 0px 5px 0px;
+        }
+                    .formInputLabel{
+                        width: 100%;
+                        margin-left: 15px; font-size: 12px;
+                    }
+                    .formInputTexto{
+                        width: 60%;  margin: 0px auto;
+                        text-align: left; color: rgb(99, 104, 120);
+                        background: #ffffff; padding:  5px 10px;
+                        border-radius: 5px; border-style: none;
+                   }
+
+    .focoDir{
+        width: 20%; float: right;
+        --background-color: rgba(126, 126, 109, 0.5);
+        text-align: right;
+
+        font-size: 12px;
+    }
+        .focoDir1{
+            width: 100%; float: right;
+            padding-right: 28px;
+        }
+        .focoDir2{
+            width: 100%; float: right;
+            padding-right: 28px;  padding-top: 20px;
+        }
+    .botao{
+        width: 95%; float: left;
+        border-top: solid 1px rgb(86, 86, 86);
+        margin-left: 40px;
+    }
+        .formInputBtn{
+            padding: 5px; font-size: 12px;
+            background: rgb(86, 86, 86);
+            margin: 10px 0px; border-radius: 5px;
+            float: right; border-style: none;
+            color: #ffffff;
+
+        }
+        .formInputBtn:hover{
+            background-color: rgb(218, 37, 28);
+            font-size: small;
+            transition-duration: .5s;
+        }
